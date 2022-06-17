@@ -36,7 +36,7 @@ After completing this workshop, you may continue with other workshops like *eOve
 - Git client
 - Shell/Terminal
 - Docker desktop
-- Docker compose
+- Docker compose 
 - REST client (curl, postman, etc)
 - Your favourite dev environment
 
@@ -50,9 +50,10 @@ git clone https://github.com/nuts-foundation/nuts-network-local
 ```
 
 If you already did this as part of the preparation, please pull the latest changes.
-And pull the latest versions of the docker images: `docker-compose pull`
+Inside the repository there are 2 directories: *single* and *network*.
+Inside each directory, you can pull the latest versions of the docker images: `docker-compose pull`
 
-Inside the repository there are 2 directories: *single* and *network*. We'll use the setup from the **single** directory.
+We'll use the setup from the **single** directory.
 Inside that directory startup the docker containers:
 
 ```shell
